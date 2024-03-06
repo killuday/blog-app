@@ -19,23 +19,76 @@ My love affair with perfumes began at a young age when I was captivated by the p
 
 ## Gems of My Collection
 
-### 1. Enchanted Elixir
+### Le Male Le Parfum: Eau de Parfum Intense
 
-Description: Enchanted Elixir is a mesmerizing blend of floral and citrus notes, reminiscent of a blooming garden in springtime.
+First in the list and my most favorite comes Le Male Le Parfum by Jean Paul Gaultier! Dressed in a black and gold officer’s jacket, this intense eau de parfum is taking leadership of the Le Male range with great style and strength. An elegant woody amber trail capturing the charisma and power of a leader. Attention sailors! The captain has arrived, and we’re about to set sail.
 
-![Enchanted Elixir](perfume1.jpg)
+**Top Notes:** Cardamom  
+**Heart Notes:** Lavender & Iris  
+**Base Notes:** Vanilla, Woody Amber
 
-### 2. Midnight Mystique
+Drawing on the potency of cardamom in its top notes and the freshness of lavender and iris at its heart, this intense eau de parfum ultimately promises to immerse you in its wonderfully addictive and prominent vanilla base note. An olfactory odyssey full of contrasts to disorient and delight the senses, its masculine trail revealing the charisma of an officer.
 
-Description: Midnight Mystique exudes an aura of mystery with its rich blend of oriental spices and woody undertones, perfect for an evening soirée.
+* Long-lasting and incredibly seductive.*
 
-![Midnight Mystique](perfume2.jpg)
 
-### 3. Serene Sunset
+![Enchanted Elixir](/lemale.jpg)
 
-Description: Serene Sunset captures the essence of a tranquil sunset with its warm notes of amber and vanilla, evoking memories of peaceful evenings by the beach.
+### Versace Eros
 
-![Serene Sunset](perfume3.jpg)
+Masculine and confident, Versace Eros Eau de Toilette is a sensual scent that blends woody, oriental, and fresh notes, crafting a potent perfume that invokes Eros—the god of love. "I envisioned a heroic, passionate man, almost a Greek God. The fragrance is made up of notes that express sensuality and power, an extreme force," says Donatella Versace.
+
+**Top Notes:** Italian lemon, mandarin, mint oil, candied apple  
+**Heart Notes:** Geranium flower, Clary sage essence, ambermax  
+**Base Notes:** Cedarwood Atlas, Cedarwood Virginia, vetiver orpur essence, patchouli coeur orpour essence, sandalwood, vanilla
+
+*Olfactory Family:* Woody, oriental, fresh
+
+
+![Enchanted Elixir](/eros.png)
+
+### Guess 1981 Los Angeles Men
+
+Guess 1981 Los Angeles Men by Guess is an Amber Fougere fragrance for men. Launched in 2019, it embodies the essence of Los Angeles with its captivating blend. This fragrance is sweet, spicy, and seductive all at the same time, offering a delightful olfactory experience. Moreover, it comes at a more affordable price point compared to other fragrances of similar quality. The impressive bottle features a wooden-finished cap and a colored glass bottle, adding to its allure.
+
+**Top Notes:** Plum, Black Pepper, Bergamot  
+**Middle Notes:** Mint, Ginger, Geranium  
+**Base Notes:** Tobacco, Amber, Sandalwood, Vetiver
+
+![Enchanted Elixir](/guess.jpg)
+
+### Nike Red Man
+
+Nike Red Man by Nike is a Woody Spicy fragrance for men, introduced in 2015. This captivating scent is a fusion of woody and spicy notes, creating an invigorating experience, making it best suited for summer. It offers a refreshing and pleasing aroma, adding a touch of luxury to your summer days. With its similarity to The One for Men by Dolce&Gabbana, Nike Red Man brings a sophisticated and timeless appeal.
+
+**Top Notes:** Lemon, Lime, Marigold  
+**Middle Notes:** Cinnamon, Black Cardamom, Peru Balsam, Walnut  
+**Base Notes:** Palisander Rosewood, Patchouli, Ebony
+
+### Nike Gold Edition Man
+
+Nike Gold Edition Man by Nike is a Woody fragrance for men, launched in 2017. This captivating scent offers a refreshing and invigorating blend of woody notes, making it perfect for summer wear. With its similarity to Bleu de Chanel, Gold Edition Man exudes sophistication and elegance, making it a timeless choice for any occasion.
+
+**Top Notes:** Grapefruit, Lemon, Pink Pepper, Nutmeg  
+**Middle Notes:** Vetiver, Ginger, Jasmine, Cedar  
+**Base Notes:** Incense, Patchouli, Sandalwood
+
+### Nike #ViralBlue
+
+Nike #ViralBlue by Nike is a Citrus Aromatic fragrance for men, newly launched in 2023. This exhilarating scent captures the essence of modernity and freshness, making it perfect for summers with its citrus notes, while also suitable for winters due to its spicy fragrance. It stands out as the most long-lasting option in Nike's lineup and bears resemblance to the classic Fahrenheit by Dior.
+
+**Top Notes:** Bergamot, Cardamom, Orange, Elemi  
+**Middle Notes:** Lavender, Incense, Myrrh  
+**Base Notes:** Vanilla, Vetiver, Papyrus, Moss
+
+### 9pm by Afnan
+
+9pm by Afnan is an Amber Vanilla fragrance for men, launched in 2020. This enticing scent combines seductiveness with strength, making it a captivating choice for any occasion. Resembling the fragrance of JPG Ultra Male, it offers a long-lasting aroma that lingers throughout the day and night. Additionally, 9pm is an affordable option for those seeking a quality fragrance without breaking the bank.
+
+**Top Notes:** Apple, Cinnamon, Wild Lavender, Bergamot  
+**Middle Notes:** Orange Blossom, Lily-of-the-Valley  
+**Base Notes:** Vanilla, Tonka Bean, Amber, Patchouli
+
 
 ## The Scent of Memories
 
@@ -51,5 +104,6 @@ Thank you for joining me on this fragrant adventure through my perfume collectio
 
 ---
 
-**About the Author:** Uday Bhanu is a front-end web developer and perfume enthusiast based in Mohali, India. Follow his scented adventures on [Instagram](https://www.instagram.com/udaybhanu/) and [Twitter](https://twitter.com/udaybhanu).
+**About the Author:** Uday Bhanu is a front-end web developer and perfume enthusiast based in Mohali, India. Follow his scented adventures on [Instagram 📸](https://www.instagram.com/udaypapi/) and [Twitter 🐦](https://twitter.com/udaypapi).
+
 

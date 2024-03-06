@@ -5,10 +5,18 @@ import Header from "@/components/Header";
 import {PostHeader} from "@/components/PostHeader";
 import {PostBody} from "@/components/PostBody";
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
+
+export function generateStaticParams() {
+    const posts = getSortedPostsData();
+    return posts.map(post => ({
+        slug: post.id,
+    }))
+}
+
+export function generateMetadata({params}: { params: { slug: string } }) {
 
     const posts = getSortedPostsData()
-    const { slug } = params
+    const {slug} = params
 
     const post = posts.find(post => post.id === slug)
 
@@ -23,13 +31,13 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
     }
 }
 
-export default async function Post({ params }: { params: { slug: string } }) {
+export default async function Post({params}: { params: { slug: string } }) {
     const posts = getSortedPostsData();
     const {slug} = params;
     if (!posts.find(post => post.id === slug)) {
         return notFound();
     }
-const {title,coverImage,date,author,contentHtml}=await  getPostData(slug);
+    const {title, coverImage, date, author, contentHtml} = await getPostData(slug);
 
     return (
         <div className={'container-2xl px-5 mx-auto'}>
