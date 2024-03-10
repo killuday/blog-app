@@ -20,6 +20,7 @@ My love affair with perfumes began at a young age when I was captivated by the p
 ## Gems of My Collection
 
 ### Le Male Le Parfum: Eau de Parfum Intense
+![Enchanted Elixir](/lemale.jpg)
 
 First in the list and my most favorite comes Le Male Le Parfum by Jean Paul Gaultier! Dressed in a black and gold officer’s jacket, this intense eau de parfum is taking leadership of the Le Male range with great style and strength. An elegant woody amber trail capturing the charisma and power of a leader. Attention sailors! The captain has arrived, and we’re about to set sail.
 
@@ -32,9 +33,10 @@ Drawing on the potency of cardamom in its top notes and the freshness of lavende
 * Long-lasting and incredibly seductive.*
 
 
-![Enchanted Elixir](/lemale.jpg)
+
 
 ### Versace Eros
+![Enchanted Elixir](/eros.png)
 
 Masculine and confident, Versace Eros Eau de Toilette is a sensual scent that blends woody, oriental, and fresh notes, crafting a potent perfume that invokes Eros—the god of love. "I envisioned a heroic, passionate man, almost a Greek God. The fragrance is made up of notes that express sensuality and power, an extreme force," says Donatella Versace.
 
@@ -45,9 +47,10 @@ Masculine and confident, Versace Eros Eau de Toilette is a sensual scent that bl
 *Olfactory Family:* Woody, oriental, fresh
 
 
-![Enchanted Elixir](/eros.png)
+
 
 ### Guess 1981 Los Angeles Men
+![Enchanted Elixir](/guess.jpg)
 
 Guess 1981 Los Angeles Men by Guess is an Amber Fougere fragrance for men. Launched in 2019, it embodies the essence of Los Angeles with its captivating blend. This fragrance is sweet, spicy, and seductive all at the same time, offering a delightful olfactory experience. Moreover, it comes at a more affordable price point compared to other fragrances of similar quality. The impressive bottle features a wooden-finished cap and a colored glass bottle, adding to its allure.
 
@@ -55,9 +58,10 @@ Guess 1981 Los Angeles Men by Guess is an Amber Fougere fragrance for men. Launc
 **Middle Notes:** Mint, Ginger, Geranium  
 **Base Notes:** Tobacco, Amber, Sandalwood, Vetiver
 
-![Enchanted Elixir](/guess.jpg)
+
 
 ### Nike Red Man
+![Enchanted Elixir](/red.jpg)
 
 Nike Red Man by Nike is a Woody Spicy fragrance for men, introduced in 2015. This captivating scent is a fusion of woody and spicy notes, creating an invigorating experience, making it best suited for summer. It offers a refreshing and pleasing aroma, adding a touch of luxury to your summer days. With its similarity to The One for Men by Dolce&Gabbana, Nike Red Man brings a sophisticated and timeless appeal.
 
@@ -66,6 +70,7 @@ Nike Red Man by Nike is a Woody Spicy fragrance for men, introduced in 2015. Thi
 **Base Notes:** Palisander Rosewood, Patchouli, Ebony
 
 ### Nike Gold Edition Man
+![Enchanted Elixir](/gold.jpg)
 
 Nike Gold Edition Man by Nike is a Woody fragrance for men, launched in 2017. This captivating scent offers a refreshing and invigorating blend of woody notes, making it perfect for summer wear. With its similarity to Bleu de Chanel, Gold Edition Man exudes sophistication and elegance, making it a timeless choice for any occasion.
 
@@ -74,6 +79,7 @@ Nike Gold Edition Man by Nike is a Woody fragrance for men, launched in 2017. Th
 **Base Notes:** Incense, Patchouli, Sandalwood
 
 ### Nike #ViralBlue
+![Enchanted Elixir](/viral-blue.jpg)
 
 Nike #ViralBlue by Nike is a Citrus Aromatic fragrance for men, newly launched in 2023. This exhilarating scent captures the essence of modernity and freshness, making it perfect for summers with its citrus notes, while also suitable for winters due to its spicy fragrance. It stands out as the most long-lasting option in Nike's lineup and bears resemblance to the classic Fahrenheit by Dior.
 
@@ -82,6 +88,7 @@ Nike #ViralBlue by Nike is a Citrus Aromatic fragrance for men, newly launched i
 **Base Notes:** Vanilla, Vetiver, Papyrus, Moss
 
 ### 9pm by Afnan
+![Enchanted Elixir](/9pm.jpg)
 
 9pm by Afnan is an Amber Vanilla fragrance for men, launched in 2020. This enticing scent combines seductiveness with strength, making it a captivating choice for any occasion. Resembling the fragrance of JPG Ultra Male, it offers a long-lasting aroma that lingers throughout the day and night. Additionally, 9pm is an affordable option for those seeking a quality fragrance without breaking the bank.
 
