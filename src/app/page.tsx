@@ -17,6 +17,7 @@ export default function Home() {
                       date={heroPost.date}
                       author={heroPost.author}
                       slug={heroPost.id}
+                      authorImage={heroPost.authorImage}
                       excerpt={heroPost.excerpt}/>
             <MoreStories/>
 

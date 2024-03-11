@@ -5,4 +5,5 @@ type BlogPost={
     date:string;
     coverImage:string;
     author:string
+    authorImage:string;
 }

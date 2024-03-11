@@ -3,6 +3,7 @@ title: My Perfume Collection
 excerpt: "Step into the world of fragrances with me as I share my passion for perfumes and explore the scents that define my collection."
 date: "2024-03-06T05:35:07.322Z"
 author: Uday Bhanu
+authorImg: "/uday.jpg"
 coverImage: "/perfumes.png"
 ---
 

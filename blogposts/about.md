@@ -3,6 +3,7 @@ title: About Me
 excerpt: "Hey there! Im Uday Bhanu, the creator of this blog. Im thrilled to share a bit about myself with you."
 date: "2024-03-06T05:35:07.322Z"
 author: Uday Bhanu
+authorImg: "/uday.jpg"
 coverImage: "/aboutme.jpg"
 ---
 

@@ -37,7 +37,7 @@ export default async function Post({params}: { params: { slug: string } }) {
     if (!posts.find(post => post.id === slug)) {
         return notFound();
     }
-    const {title, coverImage, date, author, contentHtml} = await getPostData(slug);
+    const {title, coverImage, date, author, contentHtml,authorImage} = await getPostData(slug);
 
     return (
         <div className={'container-2xl px-5 mx-auto'}>
@@ -48,6 +48,7 @@ export default async function Post({params}: { params: { slug: string } }) {
                     coverImage={coverImage}
                     date={date}
                     author={author}
+                    authorImage={authorImage}
                 />
                 <PostBody content={contentHtml}/>
             </article>

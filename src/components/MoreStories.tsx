@@ -22,10 +22,10 @@ export function MoreStories() {
                         date={post.date}
                         author={post.author}
                         slug={post.id}
+                        authorImage={post.authorImage}
                         excerpt={post.excerpt}
                     />
                 ))}
-
             </div>
         </section>
     );

@@ -3,6 +3,7 @@ title: My Memorable Journey to Jibhi, Himachal Pradesh
 excerpt: "Join me as I recount my unforgettable journey to Jibhi, Himachal Pradesh, filled with adventure and scenic beauty."
 date: "2023-06-24T05:35:07.322Z"
 author: Uday Bhanu
+authorImg: "/uday.jpg"
 coverImage: "/jibhi1.jpg"
 ---
 
