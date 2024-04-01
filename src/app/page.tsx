@@ -2,7 +2,6 @@ import Intro from "@/components/Intro";
 import {MoreStories} from "@/components/MoreStories";
 import {HeroPost} from "@/components/HeroPost";
 import {getSortedPostsData} from "../../lib/posts";
-import Footer from "@/components/Footer";
 
 export default function Home() {
     const allPosts = getSortedPostsData();
@@ -20,7 +19,7 @@ export default function Home() {
                       slug={heroPost.id}
                       authorImage={heroPost.authorImage}
                       excerpt={heroPost.excerpt}/>
-            <MoreStories/>
+            <MoreStories posts={morePosts}/>
 
 
         </div>

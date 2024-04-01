@@ -4,6 +4,8 @@ import {notFound} from "next/navigation";
 import Header from "@/components/Header";
 import {PostHeader} from "@/components/PostHeader";
 import {PostBody} from "@/components/PostBody";
+import {MoreStories} from "@/components/MoreStories";
+import Footer from "@/components/Footer";
 
 
 export function generateStaticParams() {
@@ -16,6 +18,7 @@ export function generateStaticParams() {
 export function generateMetadata({params}: { params: { slug: string } }) {
 
     const posts = getSortedPostsData()
+
     const {slug} = params
 
     const post = posts.find(post => post.id === slug)
@@ -33,6 +36,7 @@ export function generateMetadata({params}: { params: { slug: string } }) {
 
 export default async function Post({params}: { params: { slug: string } }) {
     const posts = getSortedPostsData();
+    const morePosts = posts.filter(post => post.id !== params.slug);
     const {slug} = params;
     if (!posts.find(post => post.id === slug)) {
         return notFound();
@@ -51,6 +55,8 @@ export default async function Post({params}: { params: { slug: string } }) {
                     authorImage={authorImage}
                 />
                 <PostBody content={contentHtml}/>
+                <MoreStories posts={morePosts}/>
+                <Footer />
             </article>
 
         </div>
