@@ -40,7 +40,7 @@ export default async function Post({params}: { params: { slug: string } }) {
     const {title, coverImage, date, author, contentHtml,authorImage} = await getPostData(slug);
 
     return (
-        <div className={'container-2xl px-5 mx-auto'}>
+        <div className={'container px-5 mx-auto'}>
             <Header/>
             <article className="mb-32">
                 <PostHeader

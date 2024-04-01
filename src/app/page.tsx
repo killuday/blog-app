@@ -11,7 +11,7 @@ export default function Home() {
 
     const morePosts = allPosts.slice(1);
     return (
-        <div className='container-2xl mx-auto px-5'>
+        <div className='container mx-auto px-5'>
             <Intro/>
             <HeroPost title={heroPost.title}
                       coverImage={heroPost.coverImage}
