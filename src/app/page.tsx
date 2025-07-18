@@ -2,6 +2,7 @@ import Intro from "@/components/Intro";
 import {MoreStories} from "@/components/MoreStories";
 import {HeroPost} from "@/components/HeroPost";
 import {getSortedPostsData} from "../../lib/posts";
+import SplashCursor from "@/components/SplashCursor";
 
 export default function Home() {
     const allPosts = getSortedPostsData();
@@ -20,7 +21,7 @@ export default function Home() {
                       authorImage={heroPost.authorImage}
                       excerpt={heroPost.excerpt}/>
             <MoreStories posts={morePosts}/>
-
+            <SplashCursor />
 
         </div>
     )
