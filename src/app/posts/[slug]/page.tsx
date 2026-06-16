@@ -8,16 +8,16 @@ import {MoreStories} from "@/components/MoreStories";
 import Footer from "@/components/Footer";
 
 
-export function generateStaticParams() {
-    const posts = getSortedPostsData();
+export async function generateStaticParams() {
+    const posts = await getSortedPostsData();
     return posts.map(post => ({
         slug: post.id,
     }))
 }
 
-export function generateMetadata({params}: { params: { slug: string } }) {
+export async function generateMetadata({params}: { params: { slug: string } }) {
 
-    const posts = getSortedPostsData()
+    const posts = await getSortedPostsData()
 
     const {slug} = params
 
@@ -35,7 +35,7 @@ export function generateMetadata({params}: { params: { slug: string } }) {
 }
 
 export default async function Post({params}: { params: { slug: string } }) {
-    const posts = getSortedPostsData();
+    const posts = await getSortedPostsData();
     const morePosts = posts.filter(post => post.id !== params.slug);
     const {slug} = params;
     if (!posts.find(post => post.id === slug)) {

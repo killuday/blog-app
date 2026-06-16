@@ -1,65 +1,67 @@
-import fs from 'fs';
-import path from 'path';
-import matter from "gray-matter";
-import {remark} from "remark";
+import { remark } from "remark";
 import html from "remark-html";
+import { createClient } from '@supabase/supabase-js';
 
-const postsDirectory = path.join(process.cwd(), 'blogposts');
+function getAdminClient() {
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
-export function getSortedPostsData() {
-    const fileNames = fs.readdirSync(postsDirectory);
-    const allPostsData = fileNames.map((fileName) => {
-        // Remove ".md" from file name to get id
-        const id = fileName.replace(/\.md$/, '');
+    if (!supabaseUrl || !supabaseServiceKey) {
+        throw new Error('Missing Supabase environment variables');
+    }
 
-        // Read markdown file as string
-        const fullPath = path.join(postsDirectory, fileName);
-        const fileContents = fs.readFileSync(fullPath, 'utf8');
+    return createClient(supabaseUrl, supabaseServiceKey);
+}
 
-        // Use gray-matter to parse the post metadata section
-        const matterResult = matter(fileContents);
+export async function getSortedPostsData() {
+    try {
+        const supabaseAdmin = getAdminClient();
+        const { data: posts, error } = await supabaseAdmin
+            .from('posts')
+            .select('*')
+            .order('date', { ascending: false });
 
-        const blogPost: BlogPost = {
-            id,
-            title: matterResult.data.title,
-            excerpt:matterResult.data.excerpt,
-            date: matterResult.data.date,
-            coverImage: matterResult.data.coverImage,
-            author: matterResult.data.author,
-            authorImage: matterResult.data.authorImg,
+        if (error) {
+            console.error('Error fetching posts:', error);
+            return [];
         }
 
-        // Combine the data with the id
-        return blogPost
-    });
-    // Sort posts by date
-    return allPostsData.sort((a, b) => a.date < b.date ? 1 : -1);
+        return (posts ?? []) as BlogPost[];
+    } catch (err) {
+        console.error('Failed to initialize Supabase client:', err);
+        return [];
+    }
 }
 
 export async function getPostData(id: string) {
-    const fullPath = path.join(postsDirectory, `${id}.md`);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const supabaseAdmin = getAdminClient();
+    const { data: post, error } = await supabaseAdmin
+        .from('posts')
+        .select('*')
+        .eq('id', id)
+        .single();
 
-    // Use gray-matter to parse the post metadata section
-    const matterResult = matter(fileContents);
+    if (error || !post) {
+        console.error(`Error fetching post ${id}:`, error);
+        throw new Error(`Post with id ${id} not found`);
+    }
 
     const processedContent = await remark()
         .use(html)
-        .process(matterResult.content);
+        .process(post.content);
 
     const contentHtml = processedContent.toString();
 
     const blogPostWithHTML: BlogPost & { contentHtml: string } = {
-        id,
-        title: matterResult.data.title,
-        excerpt:matterResult.data.excerpt,
-        date: matterResult.data.date,
-        coverImage: matterResult.data.coverImage,
-        author: matterResult.data.author,
-        authorImage: matterResult.data.authorImg,
+        id: post.id,
+        title: post.title,
+        excerpt: post.excerpt,
+        date: post.date,
+        coverImage: post.coverImage,
+        author: post.author,
+        authorImage: post.authorImage,
         contentHtml,
     }
 
-    // Combine the data with the id
-    return blogPostWithHTML
+    return blogPostWithHTML;
 }
